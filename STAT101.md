@@ -1,7 +1,7 @@
 # Probabilty & Statistics notes
 -
 
-### Chapter 1
+### Chapter 1: Introduction to Statistics and Data Analysis
 ***
 
 **Terms:**
@@ -32,7 +32,7 @@ process variability, population parameters, population mean, population variance
 * Elements in probability allow us to draw conclusions about characteristics of hypothetical data taken from the population, based on known feature of the population.
 
 -
-### Chapter 2
+### Chapter 2: Probability
 
 ***
 
@@ -73,3 +73,55 @@ rule of elimination,
 * If an experiment can result in any one of N different equally likely outcomes, and if exactly n of these outcomes correspond to event A, then the probability of event A is P(A) = n/N
 
 * That is, P(B|A) = P(B). When this is true, the events A and B are said to beindependent.
+
+-
+### Chapter 3: Random Variables and Probability Distributions
+***
+
+**Terms:**
+
+Name  | Description
+----- | -----------
+Random variable | a function that associates a real number with each element in the sample space
+Bernoulli random variable | the random variable for which 0 and 1 are chosen to describe the two possible values
+Discrete sample space | a sample space contains a finite number of possibilities or an unending sequence with as many elements as there are whole numbers
+Continuous sample space | a sample space contains an infinite number of possibilities equal to the number of points on a line segment
+Discrete random variable | its set of possible outcomes is countable
+Joint probability distribution | the probability distribution fortheir simultaneous occurrence can be represented by a function with values f(x, y)for any pair of values (x, y) within the range of the random variables X and Y
+Statistically independent | f(x,y) = g(x)h(y)
+
+
+
+**Keywords:**
+
+```
+probability function, cumulative distribution function, 
+probability histogram, probability density function, 
+cumulative distribution function, joint density function, 
+marginal distributions, conditional distributions, 
+
+```
+
+**Literal Definitions:**
+
+* P(a < X ≤ b) = P(a < X < b) + P(X = b) = P(a < X < b). That is, it does not matter whether we include an endpoint of the interval or not.This is not true, though, when X is discrete.
+
+-
+### Chapter 4: Mathematical Expectation
+
+***
+
+**Terms:**
+
+Name  | Description
+----- | -----------
+
+
+**Keywords:**
+
+```
+mean of the random variable
+```
+
+
+**Literal Definitions:**
