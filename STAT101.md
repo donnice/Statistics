@@ -120,8 +120,17 @@ Name  | Description
 **Keywords:**
 
 ```
-mean of the random variable
+mean of the random variable, variance of the random variable,
+deviation of an observation
 ```
 
 
 **Literal Definitions:**
+
+* Let X and Y be two independent random variables. Then σXY = 0.
+* (Chebyshev’s Theorem) The probability that any random variable X will assumea value within k standard deviations of the mean is at least 1 − 1/k*k. That is ``` P(μ − kσ < X < μ+ kσ) ≥ 1 − 1/k*k```
+
+-
+### Chapter 5: Some Discrete Probability Distributions
+
+***
