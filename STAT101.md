@@ -134,3 +134,28 @@ deviation of an observation
 ### Chapter 5: Some Discrete Probability Distributions
 
 ***
+
+**Terms:**
+
+Name  | Description
+----- | -----------
+Binomial random variable | the number X of successes in n Bernoulli trials
+Binomial distribution | the probability distribution of this discrete random variable
+Multinomial experiment | each trial have more than two possible outcomes
+multinomial distribution | if a given trial can result in any one of k possible outcomes E1,E2,... ,Ek with probabilities p1, p2, . . . , pk, then the multinomial distribution will give the probability that E1 occurs x1 times, E2 occurs x2 times, . . ., and Ek occurs xk times in n independent trials
+Hypergeometric random variable | the number X of successes of a hypergeometric experiment
+Hypergeometric distribution | the probability distribution of the hypergeometric variable
+
+
+**Keywords:**
+
+```
+Bernoulli process, multinomial experiment
+```
+
+
+**Literal Definitions:**
+
+* In general, we are interested in the probability of selecting x successes fromthe k items labeled successes and n − x failures from the N − k items labeledfailures when a random sample of size n is selected from N items. This is knownas a ***Hypergeometric experiment***, one that possesses the following two properties:
+	* A random sample of size n is selected without replacement from N items.
+	* Of the N items, k may be classified as successes and N − k are classified asfailures.
