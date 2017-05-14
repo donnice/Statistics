@@ -145,12 +145,17 @@ Multinomial experiment | each trial have more than two possible outcomes
 multinomial distribution | if a given trial can result in any one of k possible outcomes E1,E2,... ,Ek with probabilities p1, p2, . . . , pk, then the multinomial distribution will give the probability that E1 occurs x1 times, E2 occurs x2 times, . . ., and Ek occurs xk times in n independent trials
 Hypergeometric random variable | the number X of successes of a hypergeometric experiment
 Hypergeometric distribution | the probability distribution of the hypergeometric variable
+Negative binomial experiments | instead of the probability of x successes in n trials, where n is fixed, we are now interested in the probability that the kth success occurs on the xth trial
+Negative binomial random variable | the number X of trials required to produce k successes in a negative binomial experiment
+Poisson experiments | experiments yielding numerical values of a random variable X, the number of outcomes occurring during a given time interval or in a specified region
 
 
 **Keywords:**
 
 ```
-Bernoulli process, multinomial experiment
+Bernoulli process, multinomial experiment, 
+geometric distribution, Poisson random variable,
+Possion distribution
 ```
 
 
@@ -159,3 +164,27 @@ Bernoulli process, multinomial experiment
 * In general, we are interested in the probability of selecting x successes fromthe k items labeled successes and n − x failures from the N − k items labeledfailures when a random sample of size n is selected from N items. This is knownas a ***Hypergeometric experiment***, one that possesses the following two properties:
 	* A random sample of size n is selected without replacement from N items.
 	* Of the N items, k may be classified as successes and N − k are classified asfailures.
+* Properties of the Poisson Process:
+	* The number of outcomes occurring in one time interval or specified region ofspace is independent of the number that occur in any other disjoint time intervalor region. In this sense we say that the Poisson process has no memory.
+	* The probability that a single outcome will occur during a very short timeinterval or in a small region is proportional to the length of the time intervalor the size of the region and does not depend on the number of outcomesoccurring outside this time interval or region.
+	* The probability that more than one outcome will occur in such a short timeinterval or fall in such a small region is negligible.
+
+-
+### Chapter 5: Some Continuous Probability Distributions
+
+***
+
+
+**Terms:**
+
+Name  | Description
+----- | -----------
+Continuous uniform distribution | this distribution is characterized by a density function that is “flat,” and thus the probability is uniform in a closed interval, say [A, B]
+
+**Keywords:**
+
+```
+rectangular distribution, 
+```
+
+**Literal Definitions:**
