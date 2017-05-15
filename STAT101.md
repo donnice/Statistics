@@ -170,7 +170,7 @@ Possion distribution
 	* The probability that more than one outcome will occur in such a short timeinterval or fall in such a small region is negligible.
 
 -
-### Chapter 5: Some Continuous Probability Distributions
+### Chapter 6: Some Continuous Probability Distributions
 
 ***
 
@@ -180,11 +180,15 @@ Possion distribution
 Name  | Description
 ----- | -----------
 Continuous uniform distribution | this distribution is characterized by a density function that is “flat,” and thus the probability is uniform in a closed interval, say [A, B]
+Standard normal distribution | the distribution of a normal random variable with mean 0 and variance 1
+Mean time between failures | Beta in Gamma Distribution
 
 **Keywords:**
 
 ```
-rectangular distribution, 
+rectangular distribution, gamma distribution,
+exponential distribution, chi-squared distribution,
+beta distribution
 ```
 
 **Literal Definitions:**
